@@ -34,6 +34,7 @@
             2,
             "never"
         ],
+        "no-console":0,
         "no-var": 2,
         "prefer-spread": 2,
         "prefer-const": 2,
@@ -56,7 +57,8 @@
                     "React.Children"
                 ]
             }
-        ]
+        ],
+        "lodash/import-scope": [0, "method"]
     },
     "plugins": [
         "babel",

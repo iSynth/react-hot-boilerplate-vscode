@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import add from 'lodash/add'
 
+//onst dump =(...values) => values.forEach((item) => console.dir(item));
+
 class Counter extends Component {
     constructor(props) {
         super(props);
@@ -10,6 +12,7 @@ class Counter extends Component {
     }
 
     tick() {
+        //console.dir(this.props);
         this.setState({
             counter: add(this.state.counter, this.props.increment)
         });
